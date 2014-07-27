@@ -1,4 +1,4 @@
-FROM flowhealth/js_buildtools
+FROM flowhealth/js_buildtools:latest
 MAINTAINTER Viktor Miroshnikov <viktor@flowhealth.com>
 RUN npm install -g dynalite
 EXPOSE 8000
